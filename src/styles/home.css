@@ -119,7 +119,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 40px;
 }
 
@@ -132,6 +132,7 @@
     color: white;
     font-family: var(--font-pop);
 }
+
 
 
 @media (min-width : 768px) {
@@ -156,14 +157,6 @@
         margin-top: 150px;
         margin-bottom: 40px;
     }
-
-    .container-technology{
-        /* gap: 80px; */
-        justify-content: flex-start;
-        /* width: 80%; */
-        row-gap: 50px;
-        
-    }
 }
 
 @media (min-width: 1280px) {
@@ -173,8 +166,6 @@
 
     .container-technology{
         margin-top: 50px;
-        gap: 80px;
-        justify-content: flex-start;
         width: 60%;
     }
 

@@ -2,6 +2,7 @@
 @import "./navBar.css";
 @import "./home.css";
 @import "./footer.css";
+@import "./all-projects.css";
 
 *{
     padding: 0;

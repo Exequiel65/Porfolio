@@ -5,10 +5,6 @@ const Header = () => {
     return (
         <header>
             <NavBar />
-
-
-
-
         </header>
     );
 }
