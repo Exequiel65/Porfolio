@@ -1,8 +1,9 @@
 import React from 'react';
 
 const Footer = () => {
+  
     return (
-        <footer>
+        <footer className='under'>
             <div className='text-footer'>
                 <p>@2022 Marcos Britos</p>
             </div>

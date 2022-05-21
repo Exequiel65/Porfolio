@@ -5,7 +5,7 @@ import SkillWraper from '../components/SkillWraper';
 
 const Home = () => {
     return (
-        <main>
+        <main className='animate__animated animate__fadeIn animate__delay-1s'>
             <Profile />
             <AboutMe />
             <SkillWraper />            

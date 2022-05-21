@@ -1,0 +1,68 @@
+.main-contact{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-contact h2{
+    font-family: var(--font-pop);
+    color: #D9DD07;
+    padding: 30px;
+}
+
+.icons-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.icon-image img{
+    width: 3rem;
+    cursor: pointer;
+}
+.icon-image{
+    padding-bottom: 10px;
+}
+.icon{
+    text-align: center;
+    padding: 10px;
+}
+.icon h5 a{
+    font-family: var(--font-pop);
+    font-weight: normal;
+    color: #B9BD04;
+    cursor: pointer;
+}
+
+.icon h5 a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    color: #D9DD07;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+
+@media (min-width : 768px) {
+    .icon-image img{
+        width: 6rem;
+        cursor: pointer;
+    }
+    .icon h5{
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width : 1280px) {
+    .icons-container{
+        gap: 100px;
+    }
+}

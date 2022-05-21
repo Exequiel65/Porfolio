@@ -17,16 +17,21 @@ export default function NavBar() {
         }
     ]
 
+    const handleDisplayMenu = ()=>{
+        let list = document.querySelector('#list')
+        list.classList.toggle('block')
+
+    }
   return (
     <nav>
-        <i className="fas fa-bars burger-menu"></i>
+        <i className="fas fa-bars burger-menu" onClick={handleDisplayMenu}></i>
         <div className='nav-contain' >
 
             
-            <ul className='list-nav' >
+            <ul className='list-nav block' id='list'>
                 {
                     list.map((l, i) => (
-                        <li key={l.name + i} className='item-nav' ><Link to={l.path}>{l.name}</Link></li>
+                        <li key={l.name + i} className='item-nav' ><Link className='item' to={l.path}>{l.name}</Link></li>
                     ))
                 }
             </ul>

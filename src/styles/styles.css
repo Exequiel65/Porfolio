@@ -3,6 +3,8 @@
 @import "./home.css";
 @import "./footer.css";
 @import "./all-projects.css";
+@import "./project-detail.css";
+@import "./contact.css";
 
 *{
     padding: 0;

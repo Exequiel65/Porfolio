@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom'
 const Profile = () => {
     return (
         <article className='profile'>
@@ -13,7 +13,7 @@ const Profile = () => {
             </div>
 
             <div className='btn-contact-container'>
-                <a href="#contact" className='bt-contact'>Contactame!</a>
+                <Link to="/contact" className='bt-contact'>Contactame!</Link>
             </div>
         </article>
     );
