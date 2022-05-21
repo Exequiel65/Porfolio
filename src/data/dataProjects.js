@@ -85,7 +85,7 @@ const DataProjects = [
     {
         id : 4,
         name: "App heroes",
-        deploy: "https://preeminent-elf-19e0b7.netlify.app/marvel",
+        deploy: "https://preeminent-elf-19e0b7.netlify.app/",
         github: "https://github.com/Exequiel65/App-React--Heroes",
         images: "App-heroes.PNG",
         descrition: "Proyecto realizado con React.js, este proyecto sirve para comprobar la funcionalidad de react router, cuanta con 3 paginas, login, listado de heroeas marvel y DC",
